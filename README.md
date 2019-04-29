@@ -87,8 +87,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Carlos Renato Salim Campos** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Yasir Malik** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Carlos Renato Salim Campos** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/carlossalim/)
+* **Yasir Malik** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/ynmalik/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
