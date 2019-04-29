@@ -11,7 +11,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This research was executed using Jupiter Notebook with Tensorflow 
+This research was executed using Anaconda Python, Jupiter Notebook and Tensorflow; you can see bellow the list of libraries used, with their respective version.
+
 ```
 Python: 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)]
 scipy: 1.2.1
@@ -23,8 +24,6 @@ numba: 0.43.0
 pyod: 0.6.8
 ```
 ### Installing
-
-
 
 ```
 The log_sample file contains an example of the system call log file that we used in our research. 
