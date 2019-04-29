@@ -42,6 +42,11 @@ LSTM.ipynb -  Python code for Long short-term memory
 GA_LSTM.ipynb - Python code for Genetic Algorithm combined with Long short-term memory
 ```
 
+## Vulnerabilties Codes
+
+[Mitra & Ranganath] (https://bitbucket.org/secure-it-i/android-app-vulnerability-benchmarks/)
+
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
