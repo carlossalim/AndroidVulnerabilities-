@@ -14,17 +14,17 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 
-The log_sample file contains an example of the system call log file that we used in our research. 
 
-FinalProcessing_out.csv - It contains the processed output to be used in the Machine Learning Algorithms
-
-KNN.ipynb - Python code using kNN to detect Android Vulnerabilities.
-SVM_MODEL.ipynb - Python code using Support Vector Machine to detect Android Vulnerabilities.
-LSTM.ipynb -  Python code using Support Vector Machine to detect Android Vulnerabilities.
-GA_LSTM.ipynb - 
 
 ```
-Give examples
+The log_sample file contains an example of the system call log file that we used in our research. 
+FinalProcessing_out.csv - It contains the processed output to be used in the Machine Learning Algorithms
+
+Machine Learning Algorithms used: 
+KNN.ipynb - Python code for kNN to detect Android Vulnerabilities.
+SVM_MODEL.ipynb - Python code for Support Vector Machine 
+LSTM.ipynb -  Python code for Long short-term memory  
+GA_LSTM.ipynb - Python code for Genetic Algorithm combined with Long short-term memory
 ```
 
 ### Installing
@@ -69,12 +69,6 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -85,7 +79,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Carlos Renato Salim Campos** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Yasir Malik** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
