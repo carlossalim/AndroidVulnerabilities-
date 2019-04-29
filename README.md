@@ -5,14 +5,24 @@ We put together the benign system calls informations using several trustworthy A
 We also executed programs with known vulnerabilities in a controlled environment and collect system calls triggered by those Apps. We define those sequence of system calls the anomalies in our study.
 We selected four vulnerabilities that can be present in Android Apps, and we used the codes from Mitra & Ranganath [17], for the chosen vulnerabilities:  ECB Blockcypher, Dynamic Register Broadcast Rceiver, Fragment Injection Privelege Escalation, and Weak Permissions.
 
-
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
+This research was executed using Jupiter Notebook with Tensorflow 
+```
+Python: 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)]
+scipy: 1.2.1
+numpy: 1.16.2
+matplotlib: 3.0.3
+pandas: 0.24.2
+sklearn: 0.20.3
+numba: 0.43.0
+pyod: 0.6.8
+```
+### Installing
 
 
 
@@ -27,7 +37,6 @@ LSTM.ipynb -  Python code for Long short-term memory
 GA_LSTM.ipynb - Python code for Genetic Algorithm combined with Long short-term memory
 ```
 
-### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
