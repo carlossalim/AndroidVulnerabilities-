@@ -26,8 +26,14 @@ pyod: 0.6.8
 ### Installing
 
 ```
-The log_sample file contains an example of the system call log file that we used in our research. 
-FinalProcessing_out.csv - It contains the processed output to be used in the Machine Learning Algorithms
+The log_sample file contains an example of the system call log file that we used in our research. The complete file with log  
+
+export_normal1_180sec.txt - Pre-processed file with Normal system calls
+export_normal2_180sec.txt - Pre-processed file with Normal system calls
+export_vulne_180sec.txt - Pre-processed file with vulnerabilities 
+
+FinalProcessing_out.csv - It contains the processed output to be used in the Machine Learning Algorithms after all features reduction.
+FinalProcessing_out97.csv - It contains the processed output to be used in the Machine Learning Algorithms with all fetures.
 
 Machine Learning Algorithms used: 
 KNN.ipynb - Python code for kNN to detect Android Vulnerabilities.
