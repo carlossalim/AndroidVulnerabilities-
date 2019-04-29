@@ -28,9 +28,7 @@ pyod: 0.6.8
 The log_sample file is not part of the project. It contains an example of the system call log file that we used in our research. The complete log file can be downloaded from [DROPBOX](https://www.dropbox.com/s/vuzw50nijkdfagk/SySCallLog.zip?dl=0)  
 
 ```
-export_normal1_180sec.txt - Pre-processed file with Normal system calls
-export_normal2_180sec.txt - Pre-processed file with Normal system calls
-export_vulne_180sec.txt - Pre-processed file with vulnerabilities 
+prepreocessed_data.txt - Pre-processed file with Normal system calls and vulnerabilities 
 
 FinalProcessing_out.csv - It contains the processed output to be used in the Machine Learning Algorithms after all features reduction.
 FinalProcessing_out97.csv - It contains the processed output to be used in the Machine Learning Algorithms with all fetures.
