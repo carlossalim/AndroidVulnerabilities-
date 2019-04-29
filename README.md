@@ -1,9 +1,9 @@
 #  Detecting Android Vulnerabilities using Abnormally Detection
 
 The primary objective of this study is the detection of Android bugs and vulnerabilities. The way to reach our goal of detecting vulnerabilities in Android applications is grounded on our previous works, and we extend the system calls trace research using machine learning techniques to analyze the patterns that could represent a benign and a malign program.
-We put together the benign system calls informations using several trustworthy Android Applications and collecting the system call sequences that represents those Apps to build our base dataset.
+We put together the benign system calls information using several trustworthy Android Applications and collecting the system call sequences that represent those Apps to build our base dataset.
 We also executed programs with known vulnerabilities in a controlled environment and collect system calls triggered by those Apps. We define those sequence of system calls the anomalies in our study.
-We selected four vulnerabilities that can be present in Android Apps, and we used the codes from [Mitra & Ranganath](https://bitbucket.org/secure-it-i/android-app-vulnerability-benchmarks/), for the chosen vulnerabilities:  ECB Blockcypher, Dynamic Register Broadcast Rceiver, Fragment Injection Privelege Escalation, and Weak Permissions.
+We selected four vulnerabilities that can be present in Android Apps, and we used the codes from [Mitra & Ranganath](https://bitbucket.org/secure-it-i/android-app-vulnerability-benchmarks/), for the chosen vulnerabilities:  ECB Blockcypher, Dynamic Register Broadcast Reiceiver, Fragment Injection Privelege Escalation, and Weak Permissions.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ This research was executed using Anaconda Python, Jupiter Notebook and Tensorflo
 
 ### Libraries
 
-This research was executed using Anaconda Python, Jupiter Notebook and Tensorflow; you can see bellow the list of libraries used, with their respective version.
+This research was executed using Anaconda Python, Jupiter Notebook and Tensorflow; you can see below the list of libraries used, with their respective version.
 
 ```
 Python: 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)]
