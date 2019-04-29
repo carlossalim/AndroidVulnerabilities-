@@ -23,11 +23,11 @@ sklearn: 0.20.3
 numba: 0.43.0
 pyod: 0.6.8
 ```
-### Installing
+### The files
+
+The log_sample file is not part of the project. It contains an example of the system call log file that we used in our research. The complete log file can be downloaded from [DROPBOX](https://www.dropbox.com/s/vuzw50nijkdfagk/SySCallLog.zip?dl=0)  
 
 ```
-The log_sample file contains an example of the system call log file that we used in our research. The complete file with log  
-
 export_normal1_180sec.txt - Pre-processed file with Normal system calls
 export_normal2_180sec.txt - Pre-processed file with Normal system calls
 export_vulne_180sec.txt - Pre-processed file with vulnerabilities 
@@ -41,51 +41,6 @@ SVM_MODEL.ipynb - Python code for Support Vector Machine
 LSTM.ipynb -  Python code for Long short-term memory  
 GA_LSTM.ipynb - Python code for Genetic Algorithm combined with Long short-term memory
 ```
-
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
