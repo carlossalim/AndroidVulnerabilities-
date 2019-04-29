@@ -3,13 +3,13 @@
 The primary objective of this study is the detection of Android bugs and vulnerabilities. The way to reach our goal of detecting vulnerabilities in Android applications is grounded on our previous works, and we extend the system calls trace research using machine learning techniques to analyze the patterns that could represent a benign and a malign program.
 We put together the benign system calls informations using several trustworthy Android Applications and collecting the system call sequences that represents those Apps to build our base dataset.
 We also executed programs with known vulnerabilities in a controlled environment and collect system calls triggered by those Apps. We define those sequence of system calls the anomalies in our study.
-We selected four vulnerabilities that can be present in Android Apps, and we used the codes from[Mitra & Ranganath](https://bitbucket.org/secure-it-i/android-app-vulnerability-benchmarks/), for the chosen vulnerabilities:  ECB Blockcypher, Dynamic Register Broadcast Rceiver, Fragment Injection Privelege Escalation, and Weak Permissions.
+We selected four vulnerabilities that can be present in Android Apps, and we used the codes from [Mitra & Ranganath](https://bitbucket.org/secure-it-i/android-app-vulnerability-benchmarks/), for the chosen vulnerabilities:  ECB Blockcypher, Dynamic Register Broadcast Rceiver, Fragment Injection Privelege Escalation, and Weak Permissions.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This research was executed using Anaconda Python, Jupiter Notebook and Tensorflow, so please install these components; we also used several Python libraries that you will also need to install. 
 
-### Prerequisites
+### Libraries
 
 This research was executed using Anaconda Python, Jupiter Notebook and Tensorflow; you can see bellow the list of libraries used, with their respective version.
 
@@ -23,7 +23,7 @@ sklearn: 0.20.3
 numba: 0.43.0
 pyod: 0.6.8
 ```
-### The files
+### The Project
 
 The log_sample file is not part of the project. It contains an example of the system call log file that we used in our research. The complete log file can be downloaded from [DROPBOX](https://www.dropbox.com/s/vuzw50nijkdfagk/SySCallLog.zip?dl=0)  
 
@@ -41,10 +41,6 @@ SVM_MODEL.ipynb - Python code for Support Vector Machine
 LSTM.ipynb -  Python code for Long short-term memory  
 GA_LSTM.ipynb - Python code for Genetic Algorithm combined with Long short-term memory
 ```
-
-## Vulnerabilties Codes
-
-[Mitra & Ranganath](https://bitbucket.org/secure-it-i/android-app-vulnerability-benchmarks/)
 
 ## Versioning
 
